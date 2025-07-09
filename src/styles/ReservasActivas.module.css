@@ -1,0 +1,60 @@
+.seccion {
+  padding: 1rem;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  margin: 1rem 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.lista ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.lista li {
+  background-color: #ffffff;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+.estadoTag {
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.confirmada {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.activa {
+  background-color: #e0f2fe;
+  color: #0369a1;
+}
+
+.cancelada {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.botonCancelar {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.botonCancelar:hover {
+  background-color: #dc2626;
+}

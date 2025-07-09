@@ -1,0 +1,98 @@
+
+/* Scoped styles for Home */
+.home * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(180deg, #00c3ff, #2f80ed);
+  color: #fff;
+}
+
+.home .hero {
+  text-align: center;
+  padding: 80px 20px;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(0.5);
+}
+
+.home .hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.home .hero h1 span {
+  color: #ffe600;
+}
+
+.home .hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.home .botones {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home .btn {
+  background: #fff;
+  color: #2f80ed;
+  padding: 14px 28px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.home .btn:hover {
+  transform: scale(1.05);
+  background-color: #ffe600;
+  color: #000;
+}
+
+.home .btn.alt {
+  background: #ffe600;
+  color: #000;
+}
+
+.home .descripcion,
+.home .contacto {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  color: #333;
+}
+
+.home .descripcion h2,
+.home .contacto h2 {
+  color: #2f80ed;
+  margin-bottom: 10px;
+}
+
+.home .descripcion p,
+.home .contacto p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.home .contacto a {
+  color: #2f80ed;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.home footer {
+  background: #222;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
